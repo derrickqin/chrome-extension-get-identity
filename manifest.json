@@ -1,0 +1,11 @@
+{
+    "manifest_version": 2,
+    "name": "Test identity",
+    "version": "0.1",
+    "description": "A test Chrome extension to get logged in user's identity",
+    "browser_action": {
+        "default_popup": "popup.html",
+        "default_title": "Test identity"
+    },
+    "permissions": ["identity", "identity.email"]
+}
